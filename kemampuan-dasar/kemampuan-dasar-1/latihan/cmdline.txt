@@ -1,0 +1,310 @@
+1. cd 
+
+C:\Users\acer>cd ..
+
+C:\Users>
+
+C:\Users>cd ..\Scripts
+
+C:\Scripts>
+
+2. chcp 
+
+C:\Scripts>chcp
+Active code page: 850
+
+3. chdir
+
+C:\Scripts>chdir
+C:\Scripts
+
+C:\Scripts>chdir ..
+
+C:\>
+
+4. echo
+
+C:\>echo
+ECHO is on.
+
+C:\>echo /
+/
+
+C:\>echo .
+.
+
+C:\>echo off
+
+5. find
+
+C:\>find "Active code page" C:\Scripts\cmdline.txt
+
+---------- C:\SCRIPTS\CMDLINE.TXT
+Active code page: 850
+
+6. help
+
+C:\>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help.
+
+7. hostname
+
+C:\>hostname
+DESKTOP-LM1UP1J
+
+8. md
+
+C:\>md C:\Scripts\DIRECTORY
+
+9. dir
+
+C:\>dir C:\Scripts\
+ Volume in drive C has no label.
+ Volume Serial Number is FCCB-9FEC
+
+ Directory of C:\Scripts
+
+02/12/2019  22.15    <DIR>          .
+02/12/2019  22.15    <DIR>          ..
+02/12/2019  22.01                93 cari-java.bat
+02/12/2019  21.24               264 cari-java.ps1
+02/12/2019  22.14             6.232 cmdline.txt
+02/12/2019  22.15    <DIR>          DIRECTORY
+02/12/2019  22.01                93 file-ren.bat
+02/12/2019  21.54               533 file-ren.ps1
+02/12/2019  06.02               124 FirstISEScript.ps1
+02/12/2019  05.54                27 FirstScript.ps1
+02/12/2019  04.59               590 Get-LastBootTime.ps1
+02/12/2019  03.39                26 My First Script.ps1
+02/12/2019  06.43                86 MyScript.bat
+02/12/2019  06.30                51 MyScript.ps1
+02/12/2019  22.02    <DIR>          New folder
+02/12/2019  22.02    <DIR>          Test
+              11 File(s)          8.119 bytes
+               5 Dir(s)  24.952.565.760 bytes free
+
+10. move
+
+C:\>move C:\Scripts\DIRECTORY\test.txt C:\Scripts
+        1 file(s) moved.
+
+C:\>dir C:\Scripts\
+ Volume in drive C has no label.
+ Volume Serial Number is FCCB-9FEC
+
+ Directory of C:\Scripts
+
+02/12/2019  22.18    <DIR>          .
+02/12/2019  22.18    <DIR>          ..
+02/12/2019  22.01                93 cari-java.bat
+02/12/2019  21.24               264 cari-java.ps1
+02/12/2019  22.16             7.290 cmdline.txt
+02/12/2019  22.18    <DIR>          DIRECTORY
+02/12/2019  22.01                93 file-ren.bat
+02/12/2019  21.54               533 file-ren.ps1
+02/12/2019  06.02               124 FirstISEScript.ps1
+02/12/2019  05.54                27 FirstScript.ps1
+02/12/2019  04.59               590 Get-LastBootTime.ps1
+02/12/2019  03.39                26 My First Script.ps1
+02/12/2019  06.43                86 MyScript.bat
+02/12/2019  06.30                51 MyScript.ps1
+02/12/2019  22.02    <DIR>          New folder
+02/12/2019  22.02    <DIR>          Test
+02/12/2019  22.17                 0 Test.txt
+              12 File(s)          9.177 bytes
+               5 Dir(s)  24.951.967.744 bytes free
+
+11. netstat
+
+C:\>netstat -o
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    127.0.0.1:10403        DESKTOP-LM1UP1J:14709  ESTABLISHED     9084
+  TCP    127.0.0.1:10595        DESKTOP-LM1UP1J:10596  ESTABLISHED     9084
+  TCP    127.0.0.1:10596        DESKTOP-LM1UP1J:10595  ESTABLISHED     9084
+  TCP    127.0.0.1:10598        DESKTOP-LM1UP1J:10599  ESTABLISHED     9084
+  TCP    127.0.0.1:10599        DESKTOP-LM1UP1J:10598  ESTABLISHED     9084
+  TCP    127.0.0.1:10601        DESKTOP-LM1UP1J:10602  ESTABLISHED     9084
+  TCP    127.0.0.1:10602        DESKTOP-LM1UP1J:10601  ESTABLISHED     9084
+  TCP    127.0.0.1:10606        DESKTOP-LM1UP1J:10607  ESTABLISHED     9084
+  TCP    127.0.0.1:10607        DESKTOP-LM1UP1J:10606  ESTABLISHED     9084
+  TCP    127.0.0.1:10693        DESKTOP-LM1UP1J:10694  ESTABLISHED     9084
+  TCP    127.0.0.1:10694        DESKTOP-LM1UP1J:10693  ESTABLISHED     9084
+  TCP    127.0.0.1:14709        DESKTOP-LM1UP1J:10403  ESTABLISHED     6064
+  TCP    192.168.1.20:13181     a104-93-198-63:https   ESTABLISHED     1276
+  TCP    192.168.1.20:13182     29:http                ESTABLISHED     1276
+  TCP    192.168.1.20:13354     206:https              ESTABLISHED     9084
+  TCP    192.168.1.20:14125     152:https              ESTABLISHED     4240
+  TCP    192.168.1.20:14128     sc-in-f188:https       ESTABLISHED     13296
+  TCP    192.168.1.20:14315     fra02-004:http         ESTABLISHED     3620
+
+12. nslookup
+
+C:\>nslookup
+Default Server:  100.subnet118-98-44.astinet.telkom.net.id
+Address:  118.98.44.100
+
+13. type
+
+C:\>type C:\Scripts\cari-java.ps1
+Get-ChildItem -Force -Recurse
+echo `n
+$a = Get-ChildItem -Force -Recurse -include *.java
+
+foreach ($line in $a) {
+
+    $extn = [IO.Path]::GetExtension($line)
+    if ($extn -eq ".java" )
+    {
+    "Ada file Java pada direktori $line"
+    }
+}
+
+14. whoami
+
+C:\>whoami
+desktop-lm1up1j\acer
+
+15. date
+
+C:\>date /t
+02/12/2019
+
+16. copy
+
+C:\>copy C:\Scripts\Test.txt C:\Scripts\test1.txt
+        1 file(s) copied.
+
+17. cacls 
+
+C:\>cacls C:\Scripts\Test.txt
+C:\Scripts\Test.txt BUILTIN\Administrators:(ID)F
+                    NT AUTHORITY\SYSTEM:(ID)F
+                    BUILTIN\Users:(ID)R
+                    NT AUTHORITY\Authenticated Users:(ID)C
+
+18. arp
+
+C:\>arp /a
+
+Interface: 192.168.1.20 --- 0x1b
+  Internet Address      Physical Address      Type
+  192.168.1.1           9c-6f-52-c1-e3-cc     dynamic
+  192.168.1.255         ff-ff-ff-ff-ff-ff     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+19. assoc
+
+C:\>assoc .txt
+.txt=txtfile
+
+C:\>assoc .jar
+.jar=jarfile
+
+20. attrib
+
+C:\>attrib C:\Scripts\Test.txt
+A                    C:\Scripts\Test.txt
